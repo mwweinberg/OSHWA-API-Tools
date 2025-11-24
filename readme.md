@@ -1,0 +1,1 @@
+if you get a error: 'total_number_of_certified_hardware = json_data['total']', that just  means your API token has expired
