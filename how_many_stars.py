@@ -88,7 +88,7 @@ if 'previousVersions' not in fieldnames:
 github_projects_list = []
 
 #this for statement is currently limited to the first five entries for testing
-#remove the `[:5]` to have it work for everything
+#if you want to limit the number of entries (for testing), use `all_data[:20]` (or however many you want in the test)
 #print(all_data)
 for i in all_data:
     #if github is in the documentation url
@@ -147,6 +147,7 @@ for i in github_projects_list:
         'oshwaUid': i.get('oshwaUid', None),
         'country': i.get('country', None),
         'projectName': i.get('projectName', None),
+        'responsibleParty': i.get('responsibleParty', None),
         'primaryType': i.get('primaryType', None),
         'hardwareLicense': i.get('hardwareLicense', None),
         'softwareLicense': i.get('softwareLicense', None),
@@ -155,11 +156,37 @@ for i in github_projects_list:
         'stars': i.get('stars', -1),
         'forks': i.get('forks', -1),
         'watchers': i.get('watchers', -1), 
-        'directoryUrl':('https://certification.oshwa.org/'+i.get('oshwaUid', 'list.html'))
+        'directoryUrl':('https://certification.oshwa.org/'+i.get('oshwaUid', 'list').lower()+'.html')
     }
 
     github_projects_list_simplified.append(temp_dict)
 
+#####export sorted table to markdown
+
+#sort the list by number of stars
+sorted_github_projects_list_simplified = sorted(github_projects_list_simplified, key=lambda x: x['stars'], reverse=True)
+
+#start markdown table with headers
+sorted_github_projects_list_simplified_markdown_table = "| Rank | Project Name | Responsible Party | Country | Primary Type | Certification Year | Stars |\n"
+#add line under headers
+sorted_github_projects_list_simplified_markdown_table += "|---------|---------|--------------|-------------------|--------------|-------------------|-------|\n"
+
+#add the data
+rank_value = 1
+for i in sorted_github_projects_list_simplified:
+    #format date info to just pull out the year
+    cert_date = i.get('certificationDate', '')
+    cert_year = cert_date[:4] if cert_date else ''
+    #format the project name so it links to the entry 
+    #project_name_with_link = "[" + i['projectName'] + "](" + "https://certification.oshwa.org/" + i['oshwaUid'] + ")"
+
+    sorted_github_projects_list_simplified_markdown_table += f"| {rank_value} | [{i['projectName']}]({i['directoryUrl']}) | {i['responsibleParty']} | {i['country']} | {i['primaryType']} | {cert_year} | {i['stars']} |\n"
+
+    rank_value +=1
+
+#save markdown file
+with open('github_projects_by_stars_table.md', 'w', encoding='utf-8') as f:
+    f.write(sorted_github_projects_list_simplified_markdown_table)
 
 #####write the all_data csv
 
@@ -188,6 +215,11 @@ with open('github_stars_simplified.csv', 'w', newline='') as output_file:
 end_time = time.time()
 #default is in seconds, so divide by 60 to get minutes
 elapsed_time = (end_time - start_time) / 60  
+
+print(github_projects_list_simplified)
+
+print()
+print()
 
 #you only need 2 decimal places for the time, which is what .2f does
 print(f'Done! It took {elapsed_time:.2f} minutes to run.')
