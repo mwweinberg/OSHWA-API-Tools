@@ -1,8 +1,8 @@
 # script info
 
-`all_data_to_dict_and_csv.py` grabs all of the data to a dictionary and outputs as a csv
-`documentation_platform_counter.py` is for generating stats on which platforms people use to host their OSHWA documentation
-`how_many_stars.py` counts the number of stars and watchers for each entry that is hosted on github, outputs .csv and .md files
+* `all_data_to_dict_and_csv.py` grabs all of the data to a dictionary and outputs as a csv
+* `documentation_platform_counter.py` is for generating stats on which platforms people use to host their OSHWA documentation
+* `how_many_stars.py` counts the number of stars and watchers for each entry that is hosted on github, outputs .csv and .md files
 
 # troubleshooting info 
 
