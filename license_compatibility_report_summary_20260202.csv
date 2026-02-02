@@ -1,0 +1,18 @@
+category,subcategory,count
+Overall,Compatible,1325
+Overall,Incompatible,46
+Overall,Cannot Assess,652
+Cannot Assess Reasons,Hardware license is 'Other' - cannot verify compatibility,558
+Cannot Assess Reasons,Documentation license is 'Other' - cannot verify compatibility,73
+Cannot Assess Reasons,Software license is 'Other' - cannot verify compatibility,21
+Incompatible Reasons,"Incompatible: TAPR hardware requires derivative works to be under same license, but software is permissive Apache; Likely incompatible: TAPR hardware with non-copyleft software (Apache); Unusual combination: TAPR hardware with permissive CC BY documentation - may be intentional but worth reviewing",7
+Incompatible Reasons,"Incompatible: TAPR hardware requires derivative works to be under same license, but software is permissive MIT; Likely incompatible: TAPR hardware with non-copyleft software (MIT); Unusual combination: TAPR hardware with permissive CC BY documentation - may be intentional but worth reviewing",1
+Incompatible Reasons,"Incompatible: CERN-OHL-S-2.0 hardware requires derivative works to be under same license, but software is permissive MIT; Incompatible: CERN-OHL-S-2.0 hardware requires strongly reciprocal license, but software is MIT",15
+Incompatible Reasons,"Incompatible: CERN-OHL-S-2.0 hardware requires derivative works to be under same license, but software is permissive MIT; Incompatible: CERN-OHL-S-2.0 hardware requires strongly reciprocal license, but software is MIT; Unusual combination: CERN-OHL-S-2.0 hardware with permissive CC-BY-4.0 documentation - may be intentional but worth reviewing",12
+Incompatible Reasons,"Incompatible: CERN-OHL-S-2.0 hardware requires derivative works to be under same license, but software is permissive CC-BY-4.0; Incompatible: CERN-OHL-S-2.0 hardware requires strongly reciprocal license, but software is CC-BY-4.0",1
+Incompatible Reasons,"Incompatible: CERN-OHL-S-2.0 hardware requires derivative works to be under same license, but software is permissive MIT; Incompatible: CERN-OHL-S-2.0 hardware requires strongly reciprocal license, but software is MIT; Unusual combination: CERN-OHL-S-2.0 hardware with permissive CC BY documentation - may be intentional but worth reviewing",3
+Incompatible Reasons,"Incompatible: GPL-3.0-or-later hardware requires derivative works to be under same license, but software is permissive MIT; Likely incompatible: GPL hardware (GPL-3.0-or-later) with non-GPL software (MIT)",1
+Incompatible Reasons,"Incompatible: CERN-OHL-S-2.0 hardware requires derivative works to be under same license, but software is permissive Apache; Incompatible: CERN-OHL-S-2.0 hardware requires strongly reciprocal license, but software is Apache",3
+Incompatible Reasons,"Incompatible: TAPR hardware requires derivative works to be under same license, but software is permissive Apache; Likely incompatible: TAPR hardware with non-copyleft software (Apache)",1
+Incompatible Reasons,"Incompatible: GPL hardware requires derivative works to be under same license, but software is permissive MIT; Likely incompatible: GPL hardware (GPL) with non-GPL software (MIT)",1
+Incompatible Reasons,"Incompatible: CERN-OHL-S-2.0 hardware requires derivative works to be under same license, but software is permissive MIT; Incompatible: CERN-OHL-S-2.0 hardware requires strongly reciprocal license, but software is MIT; Unusual combination: CERN-OHL-S-2.0 hardware with permissive MIT documentation - may be intentional but worth reviewing",1
