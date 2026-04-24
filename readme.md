@@ -4,6 +4,8 @@
 * `documentation_platform_counter.py` is for generating stats on which platforms people use to host their OSHWA documentation
 * `how_many_stars.py` counts the number of stars and watchers for each entry that is hosted on github, outputs .csv and .md files
 * `license_alignment.py` checks all of the licenses that a project uses and determines if they are mutually compatible 
+* `cumulative_certs_over_time.py` outputs a csv tracking the cumulative certifications over time
+* `first_certification_timeline_by_country.py` outputs data that can be used to identify when countries first certified hardware.
 
 # troubleshooting info 
 

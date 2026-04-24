@@ -71,21 +71,28 @@ if 'previousVersions' not in fieldnames:
     fieldnames.append('previousVersions')
 ######END GETTING DATA SECTION#####
 
-#cuts out https://, anything after /(inclusive), and also removes www.
+# Strips scheme, path, and subdomains, returning only the registered domain (e.g. solder.party).
+# Note: assumes single-part TLDs (e.g. .com, .io, .party) — won't correctly handle co.uk-style ccSLDs.
 def normalize_url(url):
-    # Add scheme if missing (needed for urlparse to work correctly)
+    url = url.strip()
     if not url.startswith(('http://', 'https://')):
         url = 'http://' + url
-    
-    # Parse the URL
+
     parsed = urlparse(url)
     domain = parsed.netloc
-    
-    # Remove 'www.' prefix if present
-    if domain.startswith('www.'):
-        domain = domain[4:]
-    
+
+    # Remove port if present
+    domain = domain.split(':')[0]
+
+    # Keep only the last two parts (registered domain + TLD), dropping all subdomains
+    parts = domain.split('.')
+    if len(parts) > 2:
+        domain = '.'.join(parts[-2:])
+
     return domain
+
+empty_count = sum(1 for i in all_data if not i['documentationUrl'])
+print(f"Empty documentationUrl: {empty_count}")
 
 url_counter = {}
 

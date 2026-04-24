@@ -1,0 +1,72 @@
+date,country,country_code,project_name,oshwa_uid,link
+2016-10-01,United States of America,US,OpenLog,US000001,https://certification.oshwa.org/us000001.html
+2016-10-08,Spain,ES,SAV MAKER I,ES000002,https://certification.oshwa.org/es000002.html
+2016-10-08,France,FR,Smoothieware,FR000001,https://certification.oshwa.org/fr000001.html
+2016-10-08,New Zealand,NZ,OneRNG,NZ000001,https://certification.oshwa.org/nz000001.html
+2016-10-08,Switzerland,CH,Open.Theremin,CH000001,https://certification.oshwa.org/ch000001.html
+2016-10-10,Mexico,MX,Byteman,MX000001,https://certification.oshwa.org/mx000001.html
+2016-10-12,Austria,AT,AXIOM,AT000001,https://certification.oshwa.org/at000001.html
+2016-10-16,Japan,JP,Canzasi,JP000001,https://certification.oshwa.org/jp000001.html
+2016-11-07,Germany,DE,TRANS/MISSION,DE000001,https://certification.oshwa.org/de000001.html
+2016-11-08,India,IN,ADS1292R ECG/respiration shield and breakout board,IN000001,https://certification.oshwa.org/in000001.html
+2016-11-08,Australia,AU,tomu,AU000001,https://certification.oshwa.org/au000001.html
+2016-12-10,Thailand,TH,KidCareTV,TH000001,https://certification.oshwa.org/th000001.html
+2016-12-19,Canada,CA,CANtact,CA000001,https://certification.oshwa.org/ca000001.html
+2017-08-03,Singapore,SG,Chibi Chip,SG000001,https://certification.oshwa.org/sg000001.html
+2017-10-13,China,CN,sino:bit,CN000001,https://certification.oshwa.org/cn000001.html
+2017-11-23,Venezuela,VE,termoDaQ,VE000001,https://certification.oshwa.org/ve000001.html
+2017-12-12,Italy,IT,DomoNode,IT000001,https://certification.oshwa.org/it000001.html
+2018-03-19,Bulgaria,BG,ANAVI Light pHAT,BG000001,https://certification.oshwa.org/bg000001.html
+2018-05-10,Netherlands,NL,AD2 Curve Tracer,NL000001,https://certification.oshwa.org/nl000001.html
+2018-05-13,Belgium,BE,Fri3d Badge 2018,BE000001,https://certification.oshwa.org/be000001.html
+2018-06-13,Taiwan,TW,LoRa Gateway,TW000001,https://certification.oshwa.org/tw000001.html
+2018-06-19,Norway,NO,DyRET - Dynamic Robot for Embodied Testing,NO000001,https://certification.oshwa.org/no000001.html
+2018-07-06,Brazil,BR,Mauá Blocks,BR000001,https://certification.oshwa.org/br000001.html
+2018-08-16,Sri Lanka,LK,Traffic wave disruptor,LK000001,https://certification.oshwa.org/lk000001.html
+2018-08-17,Indonesia,ID,ESPTINY86 Stompbox,ID000001,https://certification.oshwa.org/id000001.html
+2018-08-20,United Kingdom,UK,ColorHug,UK000001,https://certification.oshwa.org/uk000001.html
+2018-09-30,Greece,GR,SatNOGS Rotator,GR000001,https://certification.oshwa.org/gr000001.html
+2018-11-18,Slovakia,SK,PCB stepper motor,SK000001,https://certification.oshwa.org/sk000001.html
+2019-01-31,Saudi Arabia,SA,M1 Rover Robot,SA000001,https://certification.oshwa.org/sa000001.html
+2019-04-07,Poland,PL,Nettigo Air Monitor,PL000001,https://certification.oshwa.org/pl000001.html
+2019-07-30,South Korea,KR,Creatable D3,KR000001,https://certification.oshwa.org/kr000001.html
+2019-09-23,Croatia,HR,EEZ H24005,HR000001,https://certification.oshwa.org/hr000001.html
+2019-12-11,Chile,CL,openPFGE,CL000001,https://certification.oshwa.org/cl000001.html
+2019-12-15,Sweden,SE,HiMinds Wireless Environmental Sensor,SE000001,https://certification.oshwa.org/se000001.html
+2020-01-26,Ecuador,EC,Unode,EC000001,https://certification.oshwa.org/ec000001.html
+2020-01-27,Turkey,TR,STM32 DS2480 Emu,TR000001,https://certification.oshwa.org/tr000001.html
+2020-04-27,Azerbaijan,AZ,Penguino 4260 Feather,AZ000001,https://certification.oshwa.org/az000001.html
+2020-05-28,Portugal,PT,IoT AgroIntelligence LoRaWAN Node,PT000001,https://certification.oshwa.org/pt000001.html
+2020-06-01,Russia,RU,ESPboy,RU000001,https://certification.oshwa.org/ru000001.html
+2020-06-19,Czech Republic,CZ,Otto DIY robot,CZ000001,https://certification.oshwa.org/cz000001.html
+2020-06-19,Finland,FI,4chord MIDI Piano,FI000001,https://certification.oshwa.org/fi000001.html
+2020-07-01,Mauritius,MU,Stormduino,MU000001,https://certification.oshwa.org/mu000001.html
+2020-08-14,Ireland,IE,Flex-C-Friend,IE000001,https://certification.oshwa.org/ie000001.html
+2020-08-20,El Salvador,SV,HSSV ATSAMR21 Breakout,SV000001,https://certification.oshwa.org/sv000001.html
+2020-09-19,Costa Rica,CR,relay mod,CR000001,https://certification.oshwa.org/cr000001.html
+2020-09-25,Guatemala,GT,Smart Badge,GT000001,https://certification.oshwa.org/gt000001.html
+2020-09-25,Lithuania,LT,YaDRV,LT000001,https://certification.oshwa.org/lt000001.html
+2021-04-27,Israel,IL,N32B - Midi Controller,IL000001,https://certification.oshwa.org/il000001.html
+2021-08-10,Bangladesh,BD,Rapidly developable low cost and power efficient portable turbine-based emergency ventilator,BD000001,https://certification.oshwa.org/bd000001.html
+2021-09-16,Syria,SY,Smart LED Controller,SY000001,https://certification.oshwa.org/sy000001.html
+2021-10-07,Moldova,MD,ZigStar Zigbee Stick,MD000001,https://certification.oshwa.org/md000001.html
+2022-01-09,Slovenia,SI,KORUZA Pro,SI000001,https://certification.oshwa.org/si000001.html
+2022-01-21,Panama,PA,"Low-cost, microcontroller-based phase shift measurement system for a wireless power transfer prototype",PA000001,https://certification.oshwa.org/pa000001.html
+2022-03-04,Hungary,HU,Intech Grid,HU000001,https://certification.oshwa.org/hu000001.html
+2022-05-06,Denmark,DK,"Low-Cost, Open-Source XYZ Nanopositioner for High-Precision Analytical Applications",DK000001,https://certification.oshwa.org/dk000001.html
+2022-07-07,Ukraine,UA,ZigUN0,UA000001,https://certification.oshwa.org/ua000001.html
+2022-10-21,Egypt,EG,XOProto,EG000001,https://certification.oshwa.org/eg000001.html
+2022-11-08,Argentina,AR,GuanacoOA,AR000001,https://certification.oshwa.org/ar000001.html
+2023-05-19,Estonia,EE,Trinteract,EE000001,https://certification.oshwa.org/ee000001.html
+2023-06-06,Romania,RO,GroundStudio Marble Pico,RO000001,https://certification.oshwa.org/ro000001.html
+2024-02-27,Belarus,BY,XAPOH,BY000001,https://certification.oshwa.org/by000001.html
+2024-04-05,Malaysia,MY,TomatoCube CH552 Development Board,MY000001,https://certification.oshwa.org/my000001.html
+2024-10-11,Latvia,LV,rioctrl,LV000001,https://certification.oshwa.org/lv000001.html
+2025-04-04,Iran,IR,line follower printed circuit board,IR000001,https://certification.oshwa.org/ir000001.html
+2025-06-26,Luxembourg,LU,Little Green House,LU000001,https://certification.oshwa.org/lu000001.html
+2025-07-31,Serbia,RS,VESA ESP,RS000001,https://certification.oshwa.org/rs000001.html
+2025-09-19,Algeria,DZ,Omnimo nRF52840,DZ000001,https://certification.oshwa.org/dz000001.html
+2025-10-01,Peru,PE,ESP32 Prog Lite,PE000001,https://certification.oshwa.org/pe000001.html
+2025-10-29,Colombia,CO,Open-Source spectral measurement platform for plant reflectance and material identification,CO000001,https://certification.oshwa.org/co000001.html
+2026-01-07,Pakistan,PK,PulseChord,PK000001,https://certification.oshwa.org/pk000001.html
+2026-01-07,Vietnam,VN,Turntable car wash,VN000001,https://certification.oshwa.org/vn000001.html
